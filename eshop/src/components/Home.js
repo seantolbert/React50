@@ -12,19 +12,46 @@ export default function Home() {
             className="home__image"
           />
           <div className="home__row">
-            <Product 
-                title='this is a really dope handbag yea?'
-                image='https://img.lovepik.com/free-png/20211225/lovepik-skin-care-products-png-image_400420780_wh300.png'
+            <Product
+              title="cream of the century"
+              image="https://img.lovepik.com/free-png/20211225/lovepik-skin-care-products-png-image_400420780_wh300.png"
+              price="40"
+              rating={5}
             />
-            <Product image='https://banner2.cleanpng.com/20171220/quq/mitsubishi-pajero-png-5a3aa259646f85.63600881151379208941144115.jpg'/>
+            <Product
+              title="no faith"
+              image="https://www.citypng.com/public/uploads/small/41603060048hrwib9gik4u6vrssfap0btibrjfq3zrfpcmvkuohzpdd3knxf25hyseqdnprujtaaxah571wwpn5ew1u5qixkpycj7tsgdvlb12b.png"
+              price="30"
+              rating={3}
+            />
           </div>
           <div className="home__row">
-            <Product />
-            <Product />
-            <Product />
+            <Product
+              title="no faith"
+              image="https://www.citypng.com/public/uploads/small/41603060048hrwib9gik4u6vrssfap0btibrjfq3zrfpcmvkuohzpdd3knxf25hyseqdnprujtaaxah571wwpn5ew1u5qixkpycj7tsgdvlb12b.png"
+              price="30"
+              rating={5}
+            />
+            <Product
+              title="no faith"
+              image="https://www.citypng.com/public/uploads/small/41603060048hrwib9gik4u6vrssfap0btibrjfq3zrfpcmvkuohzpdd3knxf25hyseqdnprujtaaxah571wwpn5ew1u5qixkpycj7tsgdvlb12b.png"
+              price="30"
+              rating={4}
+            />
+            <Product
+              title="no faith"
+              image="https://www.citypng.com/public/uploads/small/41603060048hrwib9gik4u6vrssfap0btibrjfq3zrfpcmvkuohzpdd3knxf25hyseqdnprujtaaxah571wwpn5ew1u5qixkpycj7tsgdvlb12b.png"
+              price="30"
+              rating={2}
+            />
           </div>
           <div className="home__row">
-            <Product />
+            <Product
+              title="no faith"
+              image="https://www.citypng.com/public/uploads/small/41603060048hrwib9gik4u6vrssfap0btibrjfq3zrfpcmvkuohzpdd3knxf25hyseqdnprujtaaxah571wwpn5ew1u5qixkpycj7tsgdvlb12b.png"
+              price="30"
+              rating={4}
+            />
           </div>
         </div>
       </div>

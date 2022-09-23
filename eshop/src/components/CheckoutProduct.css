@@ -1,0 +1,41 @@
+.checkoutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutProduct__info {
+  padding-left: 20px;
+}
+
+.checkoutProduct__info > button {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: box-shadow 0.5s ease;
+}
+
+/* neumorphic basket button */
+.checkoutProduct__info > button:hover {
+  box-shadow: 11px 11px 22px #ababab, -11px -11px 22px #ffffff;
+}
+.checkoutProduct__info > button:active {
+  box-shadow: inset 11px 11px 22px #ababab, inset -11px -11px 22px #ffffff;
+}
+
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
